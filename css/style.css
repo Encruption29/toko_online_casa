@@ -1,0 +1,86 @@
+.warna1 { background-color: #5d4037; }
+.warna2 { background-color: #8d6e63; }
+.warna3 { background-color: #d7ccc8; }
+
+.no-decoration { 
+    text-decoration: none; 
+    color: white; 
+}
+.no-decoration:hover { 
+    color: #8d6e63; 
+}
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-produk {
+    height: 40vh; /* Sesuaikan tinggi banner */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.highlighted-kategori {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.kategori-baju-pria { background-image: url('../image/baju-pria.jpg'); }
+.kategori-baju-wanita { background-image: url('../image/baju-wanita.jpg'); }
+.kategori-sepatu { background-image: url('../image/sepatu.jpg'); }
+
+.image-box {
+    height: 250px;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text-harga {
+    color: #8d6e63;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer .no-decoration {
+    font-size: 2rem;
+}
+
+.produk-terkait-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Animasi Dropdown Mulus */
+.navbar .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    pointer-events: none; /* Mencegah klik saat belum muncul */
+}
+
+.navbar .dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+/* Opsional: Menghilangkan garis biru saat tombol diklik (focus) */
+.nav-link.dropdown-toggle:focus {
+    box-shadow: none;
+}
