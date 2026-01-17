@@ -39,7 +39,7 @@ CREATE TABLE `kategori` (
 INSERT INTO `kategori` (`id`, `nama`) VALUES
 (1, 'Baju Pria'),
 (2, 'Baju Wanita'),
-(3, 'Sepatu Kerja'),
+(3, 'Sepatu'),
 (5, 'Aksesoris');
 
 -- --------------------------------------------------------
