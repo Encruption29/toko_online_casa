@@ -26,7 +26,7 @@
     <div class="container-fluid py-5">
         <div class="container fs-5 text-center">
             <p>
-                Kami adalah kelompok mahasiswa yang berdedikasi untuk menciptakan toko online yang efisien, 
+                Kami adalah kelompok 5 mahasiswa Fasilkom Unilak yang berdedikasi untuk menciptakan toko online yang efisien, 
                 modern, dan mudah digunakan untuk membantu pembeli mencari barang yang mereka inginkan. Aplikasi Toko Online 
                 dikembangkan untuk memenuhi tugas mata kuliah Pengantar Teknologi Informasi. Sistem ini bertujuan untuk mempermudah 
                 pengelolaan stok barang, kategori, serta pemantauan harga barang secara akurat.
@@ -34,6 +34,13 @@
             <p>
                 Aplikasi ini dirancang dengan antarmuka yang intuitif dan mudah digunakan, memungkinkan pengguna untuk menemukan 
                 barang yang mereka inginkan dengan cepat dan efisien.
+            </p>
+            <p>
+                Aji Royahya (2557201018) <br>
+                Gunawan Gazali (2557201005) <br>
+                Muhammad Ilham Ihsyahri (2557201006) <br>
+             	Raihan Andriyas Prama (2557201004) <br>
+                Zulfikar (2557201002)
             </p>
         </div>
     </div>
